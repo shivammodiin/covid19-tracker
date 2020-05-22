@@ -1,0 +1,99 @@
+span.Social {
+    /* display: flex; */
+    position: absolute;
+    top: 5px;
+    right: 20%;
+
+}
+
+@media (max-width:1200px) {
+    span.Social {
+        top: 0px;
+        right: 2%;
+    }
+
+}
+
+@media (max-width:1200px) {
+    span a {
+        margin-right: 8px;
+        font-size: 1.8rem !important;
+        transition: transform .3s linear;
+
+    }
+
+
+
+}
+
+@media (max-width:1200px) {
+    .shivammodi {
+        width: 20px !important;
+        top: 12px !important;
+        right: 4px;
+    }
+}
+
+@media (max-width:767px) {
+    span.Social {
+        display: none;
+
+    }
+
+
+
+}
+
+@media (min-width:768px) {
+
+    span.mobile {
+        display: none;
+
+    }
+
+}
+
+span a {
+    margin-right: 20px;
+    font-size: 2.5rem;
+    transition: transform .3s linear;
+
+}
+
+
+
+.insta {
+    color: #3f729b
+}
+
+.insta:hover {
+    color: palevioletred;
+    transform: scale(1.2);
+
+}
+
+.items-img {
+    position: relative;
+}
+
+.fb:hover {
+    color: blue;
+    transform: scale(1.2);
+
+}
+
+.shivammodi {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1.6);
+    transition: transform .3s linear;
+    position: absolute;
+    top: 18px;
+    right: 4px;
+}
+
+.shivammodi:hover {
+    transform: scale(2);
+
+}

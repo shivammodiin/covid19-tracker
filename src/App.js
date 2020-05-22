@@ -6,6 +6,7 @@ import { fetchData, fetchDailyData, FetchCountries } from "./api/index";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import covid19tracker from "./components/covid19tracker.png";
+import SocialLinks from "./SocialLinks";
 
 class App extends React.Component {
   state = {
@@ -38,8 +39,11 @@ class App extends React.Component {
     // console.log(data);
     return (
       <div className="container">
+        <SocialLinks dp="Social" />
+
         <img src={covid19tracker} alt="covid19tracker" className="imagecovid" />
         <Card data={data} country={country} />
+        <SocialLinks dp="mobile" />
 
         <CountryPicker
           handleChange={this.handleChange}
