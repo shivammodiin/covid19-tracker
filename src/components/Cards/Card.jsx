@@ -63,7 +63,7 @@ function Card({ data: { confirmed, deaths, lastUpdate, recovered } }) {
                 })} (IST)`}
               </p>
               <p className="card-text">
-                Number of People Recoveries from Covid-19
+                Number of People Recovered from Covid-19
               </p>
             </div>
           </div>

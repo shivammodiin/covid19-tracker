@@ -28,9 +28,9 @@ span.Social {
 
 @media (max-width:1200px) {
     .shivammodi {
-        width: 20px !important;
-        top: 12px !important;
-        right: 4px;
+        width: 19px !important;
+        top: 11px !important;
+        right: 10px !important;
     }
 }
 
@@ -40,7 +40,13 @@ span.Social {
 
     }
 
-
+    span.Mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 0;
+    }
 
 }
 
@@ -63,11 +69,11 @@ span a {
 
 
 .insta {
-    color: #3f729b
+    color: #dc35ca
 }
 
 .insta:hover {
-    color: palevioletred;
+    color: #d3005b;
     transform: scale(1.2);
 
 }
