@@ -11,11 +11,11 @@ function SocialLinks({ dp }) {
       </a>
       <a href="https://www.facebook.com/shivamodi456" target="_blank">
         {" "}
-        <i class="fa fa-facebook fb"></i>
+        <i className="fa fa-facebook fb"></i>
       </a>
       <a href="https://www.instagram.com/shivammodi_1294/" target="_blank">
         {" "}
-        <i class="fa fa-instagram insta"></i>
+        <i className="fa fa-instagram insta"></i>
       </a>
     </span>
   );

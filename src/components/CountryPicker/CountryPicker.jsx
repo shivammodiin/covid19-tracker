@@ -7,9 +7,13 @@ function CountryPicker({ data: { confirmed }, fetchedCountry, handleChange }) {
   return (
     <>
       <div className="select-box">
+        <label htmlFor="country" className="text-primary mr-3">
+          Select Country{" "}
+        </label>
         <select
           className="custom-select"
           style={{ width: "auto" }}
+          id="country"
           onChange={(e) => handleChange(e.target.value)}
         >
           <option value="">Global</option>
