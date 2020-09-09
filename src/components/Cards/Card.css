@@ -14,6 +14,10 @@
 
 @media (max-width:1200px) {
     .display-4 {
-        font-size: 220% !important;
+        font-size: 160% !important;
     }
+}
+
+.display-4 {
+    font-size: 200% !important;
 }
